@@ -61,7 +61,7 @@ data=sfa.simu(nob=200, alpha=c(1,2,0.5),sigV=1,sigU=0.5,family=1,rho=0.5)
 model=copSFM(Y=data$Y,X=data$X,family=1,RHO=0.5,LB=-0.99,UB=0.99)
 
 #EX: Plot the technical efficiency
-te1=TE(model$result[,1],Y=data$Y,X=data$X)
+te1=TE1(model$result[,1],Y=data$Y,X=data$X)
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.
