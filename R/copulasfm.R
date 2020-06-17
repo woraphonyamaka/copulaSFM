@@ -83,14 +83,16 @@ copSFM=function(Y,X,family,RHO,LB,UB){
   #Gaussian (-.99, .99)
   #Student t (-.99, .99)
   #Clayton (0.1, Inf)
-
+  XX=as.matrix(cbind(1,X))
+  K=ncol(XX)
 
   if (family==2){
     lower =c(rep(-Inf,K),0.01,0.01,LB,4.1)
     upper =c(rep(Inf,K+2),UB,50)
-
+    cc=rep(0.1,K)
     start0=c(cc,sigmav=1,sigmau=1,rho=RHO,df=4)
   }else{
+    cc=rep(0.1,K)
     lower =c(rep(-Inf,K+1),0.01,0.01,LB)
     upper =c(rep(Inf,K+3),UB)
     start0=c(cc,sigmav=1,sigmau=1,rho=RHO)
