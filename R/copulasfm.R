@@ -92,9 +92,9 @@ copSFM=function(Y,X,family,RHO,LB,UB){
     cc=rep(0.1,K)
     start0=c(cc,sigmav=1,sigmau=1,rho=RHO,df=4)
   }else{
-    cc=rep(0.1,K)
-    lower =c(rep(-Inf,K+1),0.01,0.01,LB)
-    upper =c(rep(Inf,K+3),UB)
+
+    lower =c(rep(-Inf,K),0.01,0.01,LB)
+    upper =c(rep(Inf,K+2),UB)
     start0=c(cc,sigmav=1,sigmau=1,rho=RHO)
   }
 
