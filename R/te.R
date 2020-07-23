@@ -64,8 +64,8 @@ TE1<-function(theta,Y,X,family){
   hw2=colMeans(hw2) # B
   # technical efficiency TE=A/B
   te=hw2/hw
-  n=length(te1)
-  plot(te1,lty=1,col="white",xlab = 'observation', ylab = 'TE value', main = "Technical Efficiency")
-  lines(te1, lty=1,type="l",col="blue")
+  n=length(te)
+  plot(te,lty=1,col="white",xlab = 'observation', ylab = 'TE value', main = "Technical Efficiency")
+  lines(te, lty=1,type="l",col="blue")
   return(te)
 }
