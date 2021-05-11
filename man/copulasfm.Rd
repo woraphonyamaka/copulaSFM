@@ -30,12 +30,12 @@ herefore, the above copula families and relevant rotated copula can potentially 
 \item{Loglikelihood }{Maximum Log-likelihood function}
 }
 \references{
-Wiboonpongse, A., Liu, J., Sriboonchitta, S., & Denoeux, T. (2015). Modeling dependence between error components of the stochastic frontier model using copula: application to intercrop coffee production in Northern Thailand. International Journal of Approximate Reasoning, 65, 34-44.
+Wiboonpongse, A., Liu, J., Sriboonchitta, S., & Denoeux, T.(2015). Modeling dependence between error components of the stochastic frontier model using copula: application to intercrop coffee production in Northern Thailand. International Journal of Approximate Reasoning, 65, 34-44.
 
-Maneejuk, P., Yamaka, W., & Sriboonchitta, S. (2017). Analysis of global competitiveness using copula-based stochastic frontier kink model. In Robustness in Econometrics (pp. 543-559). Springer, Cham.
+Maneejuk, P., Yamaka, W., & Sriboonchitta, S.(2017). Analysis of global competitiveness using copula-based stochastic frontier kink model. In Robustness in Econometrics (pp. 543-559). Springer, Cham.
 }
 \author{
-Woraphon Yamaka
+Woraphon Yamaka and Paravee MAneejuk
 }
 \note{
 %%  ~~further notes~~
