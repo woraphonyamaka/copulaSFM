@@ -8,7 +8,7 @@ Copula based Stochastic frontier Model
 In the standard stochastic frontier model, the two-sided error term V and the one-sided technical inefficiency error term W are assumed to be independent. In this paper, we relax this assumption by modeling the dependence between V and W using copulas. Nine copula families are considered and their parameters are estimated using maximum simulated likelihood.
 }
 \usage{
-copSQM(Y,X,family=1,RHO=0.5,LB=-0.99,UB=0.99)
+copSFM(Y,X,family=1,RHO=0.5,LB=-0.99,UB=0.99)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
