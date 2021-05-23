@@ -17,9 +17,9 @@ sfa.simu<-function(nob,alpha,sigV,sigU,family,rho)
     sim = BiCopSim(nob,family=family,rho)
   }
 
-  V=qtruncnorm(sim[,1], a=0.001, b=Inf, mean = 0, sd = sigU)
+  W=qtruncnorm(sim[,2], a=0.001, b=Inf, mean = 0, sd = sigU)
 
-  W=abs(qnorm(sim[,2], mean=0,sd=sigV))
+  V=(qnorm(sim[,1], mean=0,sd=sigV))
 
   # e <- rnorm(nob, 0, (sig))
   x1=rnorm(nmax,0,1)
